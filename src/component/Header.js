@@ -5,7 +5,7 @@ function Header() {
     <header>
       <div className="header-row">
         <img src="/images/logo.png" alt="logo" />
-        <h1>Company Name</h1>
+        <p>Company Name</p>
       </div>
       <div className="header-row">
         <Link to="/">Home</Link>

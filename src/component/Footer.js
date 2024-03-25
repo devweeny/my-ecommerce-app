@@ -3,7 +3,7 @@
 function Footer() {
   return (
     <footer>
-      <p>© 2021 My Ecommerce App</p>
+      <p>© 2024 Your Company Name. All rights reserved.</p>
     </footer>
   );
 }
