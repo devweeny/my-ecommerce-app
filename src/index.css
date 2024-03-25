@@ -4,3 +4,19 @@
   justify-content: space-between;
   height: 100px;
 }
+
+
+.product-page tr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product-page td{
+  width: 100%;
+}
+
+.product-page table img{
+  width: 50%;
+}
+
