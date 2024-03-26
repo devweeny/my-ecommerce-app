@@ -1,18 +1,16 @@
+import React from 'react';
+import ProductItem from './ProductItem'; // Adjust the path as needed
 import products from "../data/products.js";
 
-function ProductList() {
+function ProductList({ addToCart }) {
   return (
     <div>
       {products.map((product) => (
-        <div key={product.id}>
-        <img src={product.image} alt={product.id + "'s image"} />
-          <p>{product.name}</p>
-          <p>Price: {'$' + product.price}</p>
-          <button>Add to Cart</button>
-        </div>
-        ))}
+        <ProductItem key={product.id} product={product} addToCart={addToCart} />
+      ))}
     </div>
   );
 }
 
 export default ProductList;
+
